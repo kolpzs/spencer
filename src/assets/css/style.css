@@ -388,6 +388,10 @@ body {
     color: white;
 }
 
+.metodologia-desc b {
+    font-weight: 700;
+}
+
 .metodologia-vaga {
     width: 325px;
     margin-top: 55px;
