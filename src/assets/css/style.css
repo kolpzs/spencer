@@ -1,0 +1,799 @@
+html {
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1E1E1E;
+    z-index: -999;
+}
+
+.container-01 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #1E1E1E;
+}
+
+.inicio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: 320px;
+    height: auto;
+    left: 25%;
+    top: 100px;
+
+    z-index: 3;
+}
+
+#metodo {
+    width: 150px;
+    height: auto;
+}
+
+.inicio-alcance {
+    width: 100%;
+    margin-top: 150px;
+
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 38px;
+    color: white;
+    font-style: normal;
+    text-align: start;
+}
+
+.inicio-span {
+    font-weight: 900;
+    color: #FC7A45;
+}
+
+.inicio-desc {
+    margin-top: 50px;
+
+    font-family: "Poppins";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20.88px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    font-weight: 400;
+
+    color: white;
+}
+
+.inicio-button {
+    width: 284px;
+    height: 47px;
+
+    margin-top: 50px;
+    background-color: #00DD31;
+    border-radius: 8px;
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.12px;
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.12px;
+    filter: saturation(0.1);
+}
+
+#linha {
+    position: absolute;
+    z-index: 10;
+    margin-top: -8px;
+}
+
+/*#pedro {
+    width: 650px;
+    height: 760px;
+    top: 300px;
+    left: 750px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#effect {
+    width: 400px;
+    top: 200px;
+    left: 900px;
+    z-index: -1;
+}*/
+
+.container-02 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1E1E1E;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prazer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+.prazer-top {
+    width: 530px;
+
+    font-family: "Sofia Sans Condensed";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28.23px;
+    text-align: center;
+
+    color: white;
+
+}
+
+.prazer-desc {
+    width: 450px;
+    margin-top: 20px;
+
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    color: white;
+
+}
+
+.prazer-desc b {
+    font-weight: 700;
+}
+
+.prazer-span {
+    font-weight: 700;
+    color: #FC7A45;
+}
+
+.prazer-objs {
+    margin-top: 70px;
+
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.prazer-obj {
+    width: 195px;
+    height: 135px;
+
+    background-color: #e77140;
+    border-radius: 8px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prazer-obj-texto {
+    position: relative;
+    text-align: center;
+
+    z-index: 2;
+
+    font-family: "Sofia Sans Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26.22px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: white;
+}
+
+.prazer-obj .texto-span {
+    color: black;
+    font-weight: 900;
+}
+
+.prazer-obj-fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Sofia Sans";
+    font-size: 150px;
+    font-weight: 1000;
+    line-height: 151.25px;
+    letter-spacing: -0.03em;
+
+    color: #ff9365a6;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+.resultados {
+    width: 100%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultados-titulo {
+    font-family: "Sofia Sans Condensed";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32.27px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+}
+
+.resultados-carrosel {
+    width: 100%;
+    min-height: 400px;
+}
+
+.resultados-button {
+    width: 366px;
+    height: 47px;
+
+    margin: 115px;
+    background-color: #00DD31;
+    border-radius: 8px;
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.12px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#bg-2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -3;
+}
+
+.container-03 {
+    width: 100%;
+    min-height: 120vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metodologia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metodologia-titulo {
+    margin-top: 150px;
+    font-family: "Sofia Sans Condensed";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32.27px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+}
+
+.metodologia-mais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 60px;
+}
+
+.mais-objeto {
+    width: 170px;
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+
+
+    margin: 10px;
+
+    background-color: #262626;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.mais-icon {
+    margin-top: 25px;
+    display: flex;
+    align-items: start;
+}
+
+.mais-span {
+    font-weight: 800;
+}
+
+.mais-texto {
+    margin-top: 10px;
+
+    color: white;
+
+    font-family: "Sofia Sans Condensed";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26.4px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+}
+
+.metodologia-desc {
+    width: 640px;
+    text-align: center;
+
+    margin-top: 40px;
+
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    text-align: center;
+
+    color: white;
+}
+
+.metodologia-vaga {
+    width: 325px;
+    margin-top: 55px;
+
+    font-family: "Sofia Sans Condensed";
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 42.35px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+}
+
+.metodologia-button {
+    width: 324px;
+    height: 47px;
+
+    margin-top: 50px;
+    background-color: #00DD31;
+    border-radius: 8px;
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.12px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.container-04 {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+}
+
+.top-titulo {
+    font-family: "Sofia Sans Condensed";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32.27px;
+    letter-spacing: -0.05em;
+    text-align: left;
+
+    color: white;
+    width: 90%;
+    margin: 20px;
+}
+
+.top-desc {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+    width: 78%;
+}
+
+.top-span {
+    color: #FC7A45;
+    font-weight: 700;
+}
+
+.bottom {
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-titulo {
+    font-family: "Sofia Sans Condensed";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32.27px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+
+    width: 565px;
+}
+
+.bottom-depoimentos {
+    width: 75%;
+    margin: 100px 0;
+}
+
+.bottom-depoimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.bottom-depoimento-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    letter-spacing: -0.03em;
+    text-align: justify;
+
+    color: white;
+    margin-left: 30px;
+}
+
+.container-05 {
+    background-color: #FC7A45;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    width: 555px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-text {
+    font-family: "Sofia Sans Condensed";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48.4px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+    width: 98%;
+}
+
+.center-oferta {
+    width: 420px;
+    min-height: 480px;
+
+    background: #FF530B;
+    -webkit-box-shadow: 12px 3px 19px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 12px 3px 19px 0px rgba(0, 0, 0, 0.53);
+    box-shadow: 12px 3px 19px 0px rgba(0, 0, 0, 0.53);
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+
+}
+
+.oferta-titulo {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+
+    margin: 35px;
+
+}
+
+.oferta-desc {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+
+    width: 62%;
+    margin: 20px;
+}
+
+.oferta-desc b {
+    font-weight: 700;
+}
+
+.oferta-lista {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+
+    width: 70%;
+    margin: 15px;
+}
+
+.oferta-button {
+    width: 305px;
+    height: 52px;
+
+    margin: 50px;
+    background-color: #00DD31;
+    border-radius: 200px;
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14.12px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.center-bottom-text {
+    margin: 100px;
+    width: 100%;
+}
+
+.center-bottom-titulo {
+    font-family: "Sofia Sans Condensed";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64.8px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: white;
+}
+
+.center-bottom-desc {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.64px;
+    letter-spacing: -0.05em;
+    text-align: center;
+
+    color: white;
+
+    margin-top: 20px;
+}
+
+.container-06 {
+    width: 100%;
+    min-height: 110vh;
+    position: relative;
+    background-color: #1E1E1E;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.perguntas-titulo {
+    font-family: "Sofia Sans Condensed";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.2px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    color: #FC7A45;
+
+    margin-bottom: 30px;
+}
+
+.pergunta {
+    margin: 20px;
+    max-width: 690px;
+}
+
+.pergunta-titulo {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: #FC7A45;
+}
+
+.pergunta-texto {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: white;
+}
+
+.transforme {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 43.56px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: #FF530B;
+    width: 480px;
+    margin: 50px;
+}
+
+footer {
+    background: rgba(38, 38, 38, 1);
+    width: 100%;
+    height: 270px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.duvida {
+    display: flex;
+    flex-direction: column;
+}
+
+.duvida-titulo {
+    font-family: "Sofia Sans";
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29.7px;
+    letter-spacing: -0.05em;
+    text-align: center;
+
+    color: white;
+}
+
+.duvida-entre {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: white;
+
+    margin: 12px 0;
+}
+
+.duvida-contato {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: white;
+}
