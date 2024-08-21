@@ -104,6 +104,8 @@ body {
     position: absolute;
     z-index: 10;
     margin-top: -8px;
+    width: 100%;
+    height: auto;
 }
 
 /*#pedro {
