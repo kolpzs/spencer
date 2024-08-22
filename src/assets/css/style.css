@@ -14,18 +14,24 @@ body {
     min-height: 100vh;
     position: relative;
     background-color: #1E1E1E;
+    background-image: url("gym-with-indoor-cycling-equipment 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .inicio {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
     width: 320px;
-    height: auto;
-    left: 25%;
-    top: 100px;
+    height: 100%;
+
+    margin-top: 150px;
 
     z-index: 3;
 }
@@ -92,12 +98,45 @@ body {
 
 }
 
-#bg {
-    width: 100%;
+.spencer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 660px;
+    height: 700px;
+    margin-top: 150px;
+}
+
+.spencer-foto {
+    display: flex;
+    width: 660px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#metodo2 {
+    width: 150px;
+    height: auto;
+    display: none;
+}
+
+#pedro{
+    width: 700px;
     height: 100%;
-    z-index: -2;
-    opacity: 0.12px;
-    filter: saturation(0.1);
+    object-fit: cover;
+
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .container-01{ 
+        flex-direction: column-reverse;
+    }
+
+    .inicio{ 
+
+    }
 }
 
 #linha {
@@ -262,8 +301,50 @@ body {
 }
 
 .resultados-carrosel {
-    width: 100%;
-    min-height: 400px;
+    width: 90%;
+    height: 500px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(295px * 10);
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-295px * 5));
+    }
+    
+}
+
+.slide{ 
+    height: 434px;
+    width: 295px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.slide img {
+    height: 434px;
+    width: 295px;
+    transition: transform 1s;
+
+    border: 1px solid orange;
+    border-radius: 16px;
+}
+
+.slide img:hover {
+    transform: translateZ(10px);
 }
 
 .resultados-button {
@@ -290,13 +371,6 @@ body {
     cursor: pointer;
 }
 
-#bg-2 {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    z-index: -3;
-}
-
 .container-03 {
     width: 100%;
     min-height: 120vh;
@@ -304,6 +378,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("gym-with-indoor-cycling-equipment 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .metodologia {
@@ -803,3 +880,4 @@ footer {
 
     color: white;
 }
+
