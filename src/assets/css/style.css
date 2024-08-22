@@ -113,6 +113,7 @@ body {
     height: 700px;
     flex-direction: column;
     justify-content: center;
+    margin-left: 50px;
 }
 
 #metodo2 {
@@ -121,21 +122,84 @@ body {
     display: none;
 }
 
-#pedro{
+#pedro {
     width: 700px;
-    height: 100%;
+    height: 850px;
     object-fit: cover;
 
     position: absolute;
 }
 
 @media (max-width: 768px) {
-    .container-01{ 
+    .container-01 {
         flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
     }
 
-    .inicio{ 
+    .inicio {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .inicio-metodo {
+        display: none;
+    }
+
+    .inicio-alcance {
+        text-align: center;
+    }
+
+    .inicio-desc {
+        text-align: center;
+    }
+
+    .spencer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 40%;
+        height: auto;
+    }
+
+    .spencer-foto {
+        display: flex;
+        align-items: center;
+    }
+
+    #pedro {
+        width: 90%;
+        height: 680px;
+    }
+
+    .spencer #metodo2 {
+        display: flex;
+        width: 200px;
+    }
+
+    .container-02 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .prazer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prazer-top {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .prazer-objs {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -319,13 +383,14 @@ body {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(calc(-295px * 5));
     }
-    
+
 }
 
-.slide{ 
+.slide {
     height: 434px;
     width: 295px;
     display: flex;
@@ -388,6 +453,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 
 .metodologia-titulo {
@@ -456,7 +522,7 @@ body {
     width: 640px;
     text-align: center;
 
-    margin-top: 40px;
+    margin-top: 90px;
 
     font-family: "Poppins";
     font-size: 18px;
@@ -472,11 +538,11 @@ body {
 }
 
 .metodologia-vaga {
-    width: 325px;
-    margin-top: 55px;
+    width: 380px;
+    margin-top: 80px;
 
     font-family: "Sofia Sans Condensed";
-    font-size: 42px;
+    font-size: 50px;
     font-weight: 800;
     line-height: 42.35px;
     letter-spacing: -0.04em;
@@ -489,7 +555,7 @@ body {
     width: 324px;
     height: 47px;
 
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: #00DD31;
     border-radius: 8px;
 
@@ -548,6 +614,10 @@ body {
     color: white;
     width: 90%;
     margin: 20px;
+}
+
+.top-pedro-cima {
+    display: none;
 }
 
 .top-desc {
@@ -881,3 +951,253 @@ footer {
     color: white;
 }
 
+@media (max-width: 768px) {
+    .container-01 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inicio {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inicio-metodo {
+        display: none;
+    }
+
+    .inicio-alcance {
+        text-align: center;
+    }
+
+    .inicio-desc {
+        text-align: center;
+    }
+
+    .spencer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 40%;
+        height: auto;
+    }
+
+    .spencer-foto {
+        display: flex;
+        align-items: center;
+    }
+
+    #pedro {
+        width: 90%;
+        height: 680px;
+    }
+
+    .spencer #metodo2 {
+        display: flex;
+        width: 200px;
+    }
+
+    .container-02 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .prazer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prazer-top {
+        width: 100%;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .prazer-desc {
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .prazer-objs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 500px;
+        justify-content: space-around;
+    }
+
+    .resultados-button {
+        width: 280px;
+    }
+
+    .container-03 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .metodologia-mais {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mais-objeto {
+        width: 110px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mais-texto {
+        margin: 0;
+        margin-top: 2px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .mais-icon {
+        margin: 0;
+    }
+
+    .mais-icon img {
+        width: 40px;
+        height: auto;
+    }
+
+    .metodologia-desc {
+        width: 90%;
+    }
+
+    .container-04 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-texto {
+        width: 100%;
+    }
+
+    .top-titulo {
+        width: 100%;
+        align-items: center;
+    }
+
+    .top-pedro-cima {
+        display: flex;
+    }
+
+    .top-desc {
+        width: 90%;
+        margin-top: 55px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .top-desc li {
+        margin-top: 2px;
+    }
+
+    .top-pedro {
+        display: none;
+    }
+
+    .bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-titulo {
+        text-align: center;
+        width: 90%;
+    }
+
+    .bottom-depoimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-depoimento-text {
+        margin: 20px 0;
+    }
+
+    .container-05 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .center-text {
+        font-size: 30px;
+        line-height: 30px;
+        width: 90%;
+    }
+
+    .center-oferta {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oferta-titulo {
+        width: 90%;
+        text-align: center;
+    }
+
+    .oferta-button {
+        width: 240px;
+    }
+
+    .center-bottom-text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center-bottom-desc {
+        width: 90%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .transforme{ 
+        width: 90%;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        min-height: 450px;
+        justify-content: space-around;
+    }
+}
